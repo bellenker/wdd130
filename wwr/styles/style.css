@@ -64,7 +64,7 @@ main section{
     background-color:#679436;
 }
 .msg{
-    background-color:#05668d;
+    background-color:#8a716a;
     color:#ebf2fa;
 }
 footer{
@@ -76,7 +76,6 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    background-color: #8a716a;
     color:#ebf2fa;
 }
 footer p a:hover{
