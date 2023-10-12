@@ -24,6 +24,7 @@ header{
 }
 h2{
     margin: 0;
+    font-size: 6em;
 }
 nav a{
     text-align: center;
@@ -39,7 +40,7 @@ nav a:hover{
 .home-title{
     color:#000;
     font-family: var(--heading-font);
-    font-size: 2em;
+    font-size: 6em;
     margin-top: 10px;
 }
 h4{
