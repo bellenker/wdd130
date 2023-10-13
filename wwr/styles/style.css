@@ -92,6 +92,7 @@ main section img{
     font-family: var(--paragraph-font);
     font-size: 2em;
     padding-bottom: 15px;
+    font-size: .8em;
 }
 .button-box{
     text-align: center;
