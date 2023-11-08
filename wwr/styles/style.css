@@ -231,3 +231,69 @@ footer .social img{
         margin-top: 25px;
     }
 }
+#river-wide{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#river-id{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#wide-river{
+    width: 100%
+}
+#river-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#river-msg h1{
+    text-align: center;
+    font-family: var(--heading-font);
+    color: #ebf2fa;
+}
+.river-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.idaho{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.idaho_river{
+    grid-column: 3/6;
+    grid-row: 1/2;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.utah{
+    grid-column: 4/6;
+    grid-row: 2/3;
+    width: 100%;
+    border-radius: 5px;
+}
+.utah_river{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color:#6f7364;
+    border-radius: 5px;
+    color: #ebf2fa;
+}
+.arizona{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.arizona_river{
+    grid-column: 3/6;
+    grid-row: 3/4;
+    border-radius: 5px;
+    padding-top: 20px;
+}
