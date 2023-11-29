@@ -19,24 +19,55 @@
             </a>
         </div>
     </header>
-    <main>
-        <img src="images/symbol.png" alt="image for page3">
-        <img src="images/symbol 2.png" alt="image for page3">
-        <img src="images/gf symbol 3.jpeg" alt="image for page3">
+    <main class="need">  
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="images/symbol.png" alt="image for page3" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/symbol 2.png" alt="image for page3" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/gf symbol 3.jpeg" alt="image for page3" style="width:100%">
+            </div>
+        </div>
+        <br>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            let i;
+             let slides = document.getElementsByClassName("mySlides");
+             for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";
+             }
+             slideIndex++;
+             if (slideIndex > slides.length) {slideIndex = 1}
+             slides[slideIndex-1].style.display = "block";
+             setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        </script>
         <h1>Need To Know</h1>
         <p>It can feel daunting to go shopping or go out when you need to find or obtain food to eat. Here are a few things you need to know to keep yourself safe and eating gluten-free. 
         </p>
-        <p>There are official gluten-free symbols that are placed on labels to indicate the recipe used to make the product is gluten-free. If you see these symbols you can be pretty sure that what you are buying is gluten-free. However, if it doesn't have a written statement of gluten-free with the symbol it is best to look at the nutritional information and ingredients to confirm if something is gluten-free or not. 
+        <p>There are official gluten-free symbols that are placed on labels, to indicate the recipe used to make the product is gluten-free. If you see these symbols you can be pretty sure that what you are buying is gluten-free. However, if it doesn't have a written statement of gluten-free with the symbol it is best to look at the nutritional information and ingredients on the label to confirm if something is gluten-free or not. 
         </p>
-        <img src="images/label.jpg" alt="image for page3">
-        <img src="images/wheat label.jpeg" alt="image for page3">
+        <div class="label">
+        <img class="label-1" src="images/label.jpg" alt="image for page3">
+        <img class="label-2" src="images/wheat label.jpeg" alt="image for page3">
         <p>When shopping, the labels on the products are your best friend. Even if a product doesn't have the gluten-free certification symbol that doesn't mean it isn't gluten-free. Having the certification put on the label costs quite a bit of money and raises the price of the product. Unless the company sells so many products that the cost across their products may amount to a penny in price when the certification is added, most companies can't afford to become certified. So, they take a different approach. 
         </p>    
         <p>It is standard FDA rules that the ingredients that exist in a product must be listed and any allergies or potentially harmful ingredients must be listed on the label. Most of these ingredients can be found under the "Contains" field. When a product doesn't list a contains field there are only a few words you need to look for with in the ingredients list. They are: modified food starch, wheat, flour, malt, rye, gluten, and barley.
-        </p>    
-        <img src="images/fast.jpeg" alt="image for page3">
+        </p> 
+        </div> 
+        <div id="background"></div>
+        <div class="fast">  
+        <img class="burger" src="images/fast.jpeg" alt="image for page3">
         <p>Everyone likes to eat out once and a while. There are times when we are strapped for time. For people who can't eat gluten, eating out becomes a battle between choosing to eat and going to the hospital or starve. Many fast food places are aware of the difficulties people who need to eat gluten-free face. Most places have gluten-free options and menus. Just asking a place if they have gluten-free options is usually all you need to do to get to eat out. When you start and are learning to eat gluten-free it is not recommended to eat out anywhere that does not have gluten-free options or a menu. Don't worry, no one needs to starve.  Have fun!
         </p>
+        </div>
     </main>
     <footer>
         <p>&copy; Elizabeth Wilhite - WDD130</p>
