@@ -57,11 +57,11 @@ nav a:hover{
     grid-template-columns: repeat(12, 1fr);
     gap: 50px 0;
 }
-.no h1{
+.no h1 {
     grid-column: 2/12;
     justify-self: center;
 }
-.no p{
+.no p {
     text-align: left;
     grid-column: 2/12;
     justify-self: center;
@@ -111,11 +111,11 @@ nav a:hover{
     box-sizing:border-box;
 }
 .need h1{
-    grid-column: 5/12;
+    grid-column: 4/13;
     justify-self: center;
 }
-.need p{
-    grid-column: 5/12;
+.need p {
+    grid-column: 4/13;
     justify-self: center;
 }
 .mySlides {display: none}
@@ -124,7 +124,7 @@ nav a:hover{
     max-width: 500px;
     position: relative;
     margin: auto;
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 2/3;
     gap: 50px 0;
   }
@@ -137,11 +137,62 @@ nav a:hover{
     from {opacity: .4}
     to {opacity: 1}
   }
- #background{
-    height: 725px;
-    background-color:#007EA7;
-    grid-column: 2/12;
+.label {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 50px 0;
 }
+.label-1{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    gap: 20px;
+    width: 100%;
+}
+.label-2 {
+    grid-column: 4/6;
+    grid-row: 4/6;
+    gap: 20px;
+    width: 500px;
+}
+.label h2 {
+    grid-column: 4/13;
+    justify-self: center;
+}
+.label p {
+    grid-column: 4/13;
+    justify-self: center;
+}
+.fast {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 50px 0;
+}
+.fast h2 {
+    grid-column: 4/13;
+    justify-self: center;
+}
+.fast p{
+    background-color:#007EA7;
+    color:#F4F0BB;
+    line-height: 1.5em;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #571F4E;
+}
+.burger {
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 7/9;
+    box-shadow: 5px 5px 10px #8a716a;
+}
+#background{
+    height: 725px;
+    background-color:#43291F;
+    grid-column: 1/11;
+    grid-row: 6/10;
+}
+
 footer{
     background-color:#43291F;
     color:#F4F0BB;
