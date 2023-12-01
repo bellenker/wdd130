@@ -3,6 +3,10 @@
     --heading-font: "Bubblegum Sans", sans-serif;
     --paragraph-font: "Fanwood Text", sans-serif;
 }
+#content {
+    max-width: 1800px;
+    margin: 0 auto;
+}
 body{
     background-color: #FFF;
     color: #000;
@@ -137,7 +141,6 @@ nav a:hover{
     height: 725px;
     background-color:#007EA7;
     grid-column: 2/12;
-    grid-row: 4/9;
 }
 footer{
     background-color:#43291F;
