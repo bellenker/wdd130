@@ -131,14 +131,14 @@ nav a:hover{
     grid-column: 2/12;
 }
 .snack p {
-    grid-column: 2/7;
+    grid-column: 2/8;
     grid-row: 4/5;
     justify-self: center;
     text-align: left;
     padding-bottom: 20px;
 }
 .snack img {
-    grid-column: 8/12;
+    grid-column: 9/13;
     grid-row: 3/6;
     justify-self: center;
     max-width: 250px;
