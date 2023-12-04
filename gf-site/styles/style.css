@@ -110,13 +110,13 @@ nav a:hover{
     grid-template-columns: repeat(12, 1fr);
 }
 .meal h1{
-    grid-column: 5/12;
+    grid-column: 5/11;
     justify-self: center;
     gap: 50px 0;
 }
 .meal p{
     text-align: left;
-    grid-column: 5/12;
+    grid-column: 5/11;
     justify-self: center;
     padding-bottom: 20px;
 }
@@ -128,7 +128,7 @@ nav a:hover{
 .snack{
     display:grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column: 2/13;
+    grid-column: 2/12;
 }
 .snack p {
     grid-column: 2/7;
@@ -138,7 +138,7 @@ nav a:hover{
     padding-bottom: 20px;
 }
 .snack img {
-    grid-column: 8/13;
+    grid-column: 8/12;
     grid-row: 3/6;
     justify-self: center;
     max-width: 250px;
@@ -146,7 +146,7 @@ nav a:hover{
 .eat{
     display:grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column: 2/13;
+    grid-column: 2/12;
     padding-top: 20px;
 }
 .potato {
@@ -160,12 +160,12 @@ nav a:hover{
     justify-self: center;
 }
 .eat p:nth-of-type(1){
-    grid-column: 6/13;
+    grid-column: 6/12;
     grid-row: 7/9;
     justify-self: center;
 }
 .eat p:nth-of-type(2){
-    grid-column: 6/13;
+    grid-column: 6/12;
     grid-row: 9/10;
     justify-self: center;
 }
